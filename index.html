@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Confession 💌</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+  <h1>Hey… I need to tell you something 😳</h1>
+  <p>I’ve been thinking about this for a long time…</p>
+
+  <button onclick="showMessage()">Click to Continue</button>
+
+  <div id="confession" style="display:none;">
+    <h2> CONFESSION </h2>
+    <p>
+      I have a crush on you 💕  
+      <br><br>
+      😂 JUST KIDDING 😂  
+      <br>
+      You got PRANKED 😜
+    </p>
+  </div>
+</div>
+
+<script>
+  function showMessage() {
+    document.getElementById("confession").style.display = "block";
+  }
+</script>
+
+</body>
+</html>
